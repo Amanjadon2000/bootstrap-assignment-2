@@ -1,11 +1,117 @@
-/* #navitmebar{
+
+#label {
     position: relative;
-    right: 30px;
+    left: 20px;
 }
-nav{
-    position: absolute;
+
+#submit {
+    width: 300px;
+    padding: 8px;
+}
+
+form {
+    background-image: linear-gradient(to bottom right, #eff0f3, #e5e6eb);
+    box-shadow: 3px 3px 6px #bfc3cf, -3px -3px 6px #fff;
+    border-radius: 20px;
+}
+
+.btn-proceed {
+    color: #fff;
+    background: transparent linear-gradient(276deg, rgba(13, 53, 148, .898039), #35d3e1) 0 0 no-repeat padding-box;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 100px;
+    color: blue;
+
+}
+
+.justify {
+    justify-content: space-around;
+}
+
+.bor {
+    border: 1px dotted black;
+}
+
+.sentence {
+    height: 20rem;
+}
+
+#container2 {
+    height: 500px;
+    width: 90%;
+    background: linear-gradient(to bottom right, #eff0f3, #e5e6eb);
+}
+
+.para1 {
+    line-height: 30px;
+
+
+}
+
+.image {
+    margin-top: 10rem;
+}
+
+/* .ul{
+   list-style-image:url("https://www.tataaig.com/checkmark.svg")
+   
 } */
-/* #navbar{
-    display: flex;
-     
+.li-image {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+    background: linear-gradient(276deg, rgba(13,53,148,0.898039),#35d3e1) 0 0 no-repeat padding-box;
+}
+
+/* li:before{
+   background: transparent -webkit-linear-gradient(174deg,rgba(13,53,148,.898039),#35d3e1) 0 0 no-repeat padding-box;
 } */
+#divclass1{
+    height: 41px;
+    width: 10%
+}
+#divclass2{
+    height: 41px;
+    width: 14%
+}
+#divclass3{
+    height: 41px;
+    width: 8%
+}
+#divclass4{
+    height: 41px;
+    width: 7%
+}
+
+.upper-div img {
+    position: relative;
+    left: 95%;
+}
+
+.border-div {
+    border-bottom: 1px dotted black;
+    bottom: 0;
+}
+
+#h,#p,#k,#l{
+    text-decoration: none !important;
+    color: inherit;
+    margin-left: 15px;
+}
+#h:hover,#p:hover,#k:hover,#l:hover{
+    color: blue;
+}
+#company{
+    text-decoration: none;
+}
+#contfluid{
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    width: 94%;
+}
