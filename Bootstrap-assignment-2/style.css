@@ -1,4 +1,3 @@
-
 #label {
     position: relative;
     left: 20px;
@@ -114,4 +113,52 @@ form {
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 0.25rem;
     width: 94%;
+}
+
+.icon{
+    position: relative;
+    left: 10px;
+    top: 4px;
+}
+.divicon{
+    height: 33px;
+    width: 35px;
+    background-color: lightgray;
+    border-radius: 100%;
+}
+i{
+    color:white;
+}
+.maindiv{
+    height: 43px;
+    width:  45px;
+    background-color: whitesmoke;
+    border-radius: 100%;
+}
+#contfluid{
+    height: 500px;
+    width: 90%;
+    /* background-color: red; */
+    background: linear-gradient(to bottom right, #eff0f3, #e5e6eb);
+}
+.divicon:hover {
+    background: linear-gradient(to right, aqua, blue);  
+}
+#nan{
+  
+    background-color: rgba(125, 125, 132,0.2)
+    
+}
+#footer{
+    background-color: rgb(55, 55, 151);
+    height: 300px;
+    color: white;
+    font-size: 0.8rem;
+    width: 102%;
+    margin-left: -16px;
+    margin-right: -10px;
+}
+#bord{
+    border-bottom:1px dotted white ;
+    margin-top: 105px;
 }
